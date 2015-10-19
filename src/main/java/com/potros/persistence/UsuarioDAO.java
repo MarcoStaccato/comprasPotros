@@ -35,4 +35,41 @@ public class UsuarioDAO extends GenericDAO<Usuario> {
 		return Usuario.class;
 	}
 
+	@Override
+	public boolean persist(Usuario entity) {
+		// TODO Auto-generated method stub
+		return persist(entity);
+	}
+
+	@Override
+	public boolean merge(Usuario entity) {
+		// TODO Auto-generated method stub
+		return merge(entity);
+	}
+
+	@Override
+	public Usuario findById(int id) {
+		// TODO Auto-generated method stub
+		return findById(id);
+	}
+
+	@Override
+	public boolean remove(Usuario entity) {
+		// TODO Auto-generated method stub
+		return remove(entity);
+	}
+
+	@Override
+	public boolean removeById(int id) {
+		// TODO Auto-generated method stub
+		return removeById(id);
+	}
+
+	@Override
+	public List<Usuario> findAll() {
+		// TODO Auto-generated method stub
+		return findAll();
+	}
+	
+
 }
