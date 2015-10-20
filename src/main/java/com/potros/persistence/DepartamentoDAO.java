@@ -16,35 +16,5 @@ public class DepartamentoDAO extends GenericDAO<Departamento>{
 		// TODO Auto-generated method stub
 		return Departamento.class;
 	}
-	@Override
-	public boolean persist(Departamento entity) {
-		// TODO Auto-generated method stub
-		return persist(entity);
-	}
-	@Override
-	public boolean merge(Departamento entity) {
-		// TODO Auto-generated method stub
-		return merge(entity);
-	}
-	@Override
-	public Departamento findById(int id) {
-		// TODO Auto-generated method stub
-		return findById(id);
-	}
-	@Override
-	public boolean remove(Departamento entity) {
-		// TODO Auto-generated method stub
-		return remove(entity);
-	}
-	@Override
-	public boolean removeById(int id) {
-		// TODO Auto-generated method stub
-		return removeById(id);
-	}
-	@Override
-	public List<Departamento> findAll() {
-		// TODO Auto-generated method stub
-		return findAll();
-	}
-	
+		
 }

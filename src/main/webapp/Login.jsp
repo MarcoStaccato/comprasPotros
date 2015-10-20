@@ -14,7 +14,9 @@
       <div class="container">
 
       <form class="form-signin" action="UserValidate" method="POST">
-        <h2 class="form-signin-heading">Login :)</h2>
+        <h2 class="form-signin-heading">Login :) <%java.util.Date Fecha = new java.util.Date(); 
+        String fecha = (Fecha.getDate() + "/"+(Fecha.getMonth()+1)+"/"+(Fecha.getYear()+1900)).toString();
+        out.print(fecha);%> </h2>
         <label for="inputNick" class="sr-only">Nick</label>
         <input type="text" name="inputNick" id="inputNick" class="form-control" placeholder="Nick" required autofocus>
         <label for="inputPassword" class="sr-only">Contraseña</label>
