@@ -5,9 +5,9 @@
 <hibernate-configuration>
     <session-factory>
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="hibernate.connection.url">jdbc:mysql://potrosdb.cozfnk7n3gdc.us-west-2.rds.amazonaws.com/potroDB</property>
-        <property name="hibernate.connection.username">potrosMaster</property>
-        <property name="hibernate.connection.password">potrosPass</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost/potroDB</property>
+        <property name="hibernate.connection.username">potro</property>
+        <property name="hibernate.connection.password">potro</property>
    <!-- Si usan base local descomenten el codigo de abajo y comenten el de arriba -->
    <!-- <property name="hibernate.connection.url">jdbc:mysql://localhost/potroDB</property>
         <property name="hibernate.connection.username">localUserName</property>
