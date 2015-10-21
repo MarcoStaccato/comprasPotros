@@ -11,7 +11,7 @@ import com.potros.exception.ElementNotFoundException;
 import com.potros.exception.InvalidDataException;
 import com.potros.exception.UserNotFoundException;
 
-public abstract class GenericDAO<T> {
+public abstract class GenericDAO<T> implements UniversalDao<T> {
 	
 	
 	protected java.lang.String clase;
